@@ -12,8 +12,7 @@ Requires installation of `shiny` app prior to running.
 
 Can run app by copying and pasting the following code into your R console.
 
-`
+```
 library(shiny)
-
 shiny::runGitHub("bdpiccolo/Metabolomics_PP_Dev")
-`
+```

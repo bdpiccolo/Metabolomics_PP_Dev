@@ -1,0 +1,557 @@
+
+/* latin */
+@font-face {
+  font-family: 'Arsenal';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arsenal Regular'), local('Arsenal-Regular'), url(https://fonts.gstatic.com/s/arsenal/v2/wXKrE3kQtZQ4pF3D51jcAA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Arsenal';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arsenal Bold'), local('Arsenal-Bold'), url(https://fonts.gstatic.com/s/arsenal/v2/wXKuE3kQtZQ4pF3D7-P5FeMKmA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body, label, input, button, select { 
+	font-family: Arsenal, "sans-serif";
+}
+
+.navbar_title{
+	font-size: 30px;
+}
+
+.navbar-default .navbar-nav li a{
+	font-family: Arsenal, "sans-serif";
+	font-size: 30px;
+}
+
+/* Title color */
+.navbar-default .navbar-brand{
+	font-family: Arsenal, "sans-serif";
+	font-size: 60px;
+}
+
+.METAimport_input {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 30px;
+}
+
+.mppimport_input {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 30px;
+}
+
+.METAimport_input .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #2E2E2E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    position: absolute;
+    z-index: 3;
+}
+
+.METAimport_input:hover .tooltiptext {
+    visibility: visible;
+}
+
+.mppimport_input .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #2E2E2E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    position: absolute;
+    z-index: 4;
+}
+
+.mppimport_input:hover .tooltiptext {
+    visibility: visible;
+}
+
+.import_input {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 30px;
+}
+
+.glm_maintext {
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 25px;
+}
+
+.dataupmessaging {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: blue;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.NOcovariate {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: #428bca;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.covwarning {
+	font-family: Arsenal, "sans-serif";
+	color: #428bca;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.import_warning {
+	font-family: Arsenal, "sans-serif";
+	color: #428bca;
+    font-size: 50px;
+    font-style: italic;
+	font-weight: bold;
+}
+
+.filter_options {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 25px;
+}
+
+.filterwidget {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 20px;
+}
+
+.metatext {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 20px;
+}
+
+.tsplot_input {
+	font-weight: bold;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 5px;
+}
+
+.phaseselectTRUE {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: white;
+    font-size: 15px;
+}
+
+.phaseselectFALSE {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 15px;
+}
+
+.cagewarningLIST {
+	font-weight: normal;
+	font-family: Arsenal, "sans-serif";
+	color: black;
+    font-size: 35px;
+}
+
+.sti_input {
+}
+
+.glmTABLE {
+	font-family: Arsenal, "sans-serif";
+	color: black;
+	font-size: 30px;
+}
+
+.glmTABLEcov {
+	font-family: Arsenal, "sans-serif";
+	color: black;
+	font-size: 20px;
+}
+
+.cageRadio {
+	font-family: Arsenal, "sans-serif";
+	color: black;
+	font-size: 20px;
+}
+
+.jshidelink a {
+	font-family: Arsenal, "sans-serif";
+	color: #0066FF;
+	font-size: 20px;
+}
+
+.key_select {
+	font-family: Arsenal, "sans-serif";
+	color: black;
+	font-size: 20px;
+}
+
+.TPS_select {
+	width: 320px;
+    padding: 10px;
+    border: 5px solid #E8E8E8;
+	background-color: #E8E8E8;
+    margin: 0; 
+    border-radius: 4px;
+	/*cursor:zoom-in;*/
+}
+
+.helptip1{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip1:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip1:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip1 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+.helptip2{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip2:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip2:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip2 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+.helptip3{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip3:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip3:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip3 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+.helptip4{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip4:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip4:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip4 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+.helptip5{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip5:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip5:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip5 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+.helptip6{
+    float: right;
+    text-align: center;
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+	z-index: 3;
+}
+
+.helptip6:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.helptip6:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.helptip6 p{    /* The tooltip */
+    display: none;
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+    width: 250px;
+    float: right;
+    position: absolute;
+    border-radius: 6px;
+    padding: 5px 0;
+    left: 90%;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.4;
+	
+	font-family: Arsenal, "sans-serif";
+
+    /* Position the METAimport_input */
+    z-index: 3;	
+	
+	
+}
+
+/* CSS animation */
+
+@-webkit-keyframes fadeIn {
+    0% { 
+        opacity:0; 
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:100%; }
+}
+
+
+
+
+

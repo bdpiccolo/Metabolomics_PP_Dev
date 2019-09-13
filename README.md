@@ -6,7 +6,7 @@ Shiny App for Metabolomics Pre-Processing Steps
 ### Installation
 Copnstruction on R version 3.6.0.
 
-Requires installation of `shiny` app prior to running.
+Requires installation of `shiny` package prior to running. 
 
 `install.packages("shiny")`
 
